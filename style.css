@@ -1,0 +1,58 @@
+body {
+    font-family: Geneva, Tahoma, sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 132, 255);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.top-nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav > ul > li {
+    list-style: none;
+    padding: 10px;
+    background-color: green;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.destinations-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    
+}
+
+.comment {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
